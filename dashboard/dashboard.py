@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Load dataset
-df = pd.read_csv("../data/motor_data.csv")
+df = pd.read_csv("../data/sensor_data.csv")
 
 # Load model
 model = joblib.load("../models/motor_health_model.pkl")
