@@ -13,7 +13,7 @@ st.set_page_config(
 df = pd.read_csv("data/sensor_data.csv")
 
 # Load model
-model = joblib.load("/models/motor_health_model.pkl")
+model = joblib.load("models/motor_health_model.pkl")
 
 # Title
 st.title("EV Motor Predictive Maintenance Dashboard")
